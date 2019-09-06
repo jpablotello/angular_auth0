@@ -8,6 +8,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { ProcesamientoComponent } from './componentes/procesamiento/procesamiento.component';
 import { EstadisticasComponent } from './componentes/estadisticas/estadisticas.component';
+import { CallbackComponent } from './componentes/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EstadisticasComponent } from './componentes/estadisticas/estadisticas.c
     NavbarComponent,
     HomeComponent,
     ProcesamientoComponent,
-    EstadisticasComponent
+    EstadisticasComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
